@@ -49,9 +49,9 @@ nav {
 }
 
 .logo {
-  font-size: 1.3rem;
-  color: var(--main2);
-  font-weight: 700;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
 .navigation {
