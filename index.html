@@ -202,14 +202,14 @@
         <h3>Contactez-nous</h3>
       </div>
       <div class="contact-container">
-        <form action="#">
-          <label for="fullname">Nom Complet:</label>
-          <input type="text" id="user_fullname" placeholder="Zeynab Seye" />
+        <form action="#" id="ContactUs">
+          <label for="fullName">Nom Complet:</label>
+          <input type="text" id="fullName" name="user_name" placeholder="Zeynab Seye" />
           <label for="email">Email:</label>
-          <input type="text" id="user_email" placeholder="zeynab@gmail.com" />
+          <input type="text" id="email" name="user_email" placeholder="zeynab@gmail.com" />
           <textarea
-            name="message"
-            id="user_message"
+            name="user_message"
+            id="message"
             placeholder="Message"
           ></textarea>
           <button type="submit" class="btn">Envoyer</button>
@@ -217,7 +217,7 @@
       </div>
     </section>
     <!---######################-->
-    <!----------Contact-------->
+    <!----------FOOTER-------->
     <!---######################-->
     <footer>
       <div class="footer-box">
@@ -238,6 +238,7 @@
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
